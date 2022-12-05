@@ -1,5 +1,5 @@
-import * as variable from "../util/variables";
-import * as preRequest from "./preRequest";
+import * as variable from "../util/variables.js";
+import * as preRequest from "./preRequest.js";
 
 export const createAuthBody= {
     "username" : variable.login,

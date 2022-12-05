@@ -1,4 +1,4 @@
-import {endpoint} from "../util/variables";
+import {endpoint} from "../util/variables.js";
 import axios from "axios";
 
 export function createAuth(body, headers) {

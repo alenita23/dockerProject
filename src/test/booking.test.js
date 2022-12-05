@@ -7,8 +7,8 @@ import {updateBooking} from "../httpMethods/updateBooking.js";
 import {partialUpdateBooking} from "../httpMethods/partialUpdateBooking.js";
 import {deleteBooking} from "../httpMethods/deleteBooking.js";
 import {getDeletedBooking} from "../httpMethods/getDeletedBooking.js";
-import * as variables from "../util/variables";
-import * as requestData from "../bodies/preRequest";
+import * as variables from "../util/variables.js";
+import * as requestData from "../bodies/preRequest.js";
 
 export let token;
 export let bookingId;

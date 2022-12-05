@@ -1,8 +1,8 @@
-import {randomPrice} from "../util/randomGenerator";
-import {randomPriceUpdated} from "../util/randomGenerator";
-import {createCheckinDate} from "../util/randomGenerator";
-import {createCheckoutDate} from "../util/randomGenerator";
-import {createCheckoutDateUpdated} from "../util/randomGenerator";
+import {randomPrice} from "../util/randomGenerator.js";
+import {randomPriceUpdated} from "../util/randomGenerator.js";
+import {createCheckinDate} from "../util/randomGenerator.js";
+import {createCheckoutDate} from "../util/randomGenerator.js";
+import {createCheckoutDateUpdated} from "../util/randomGenerator.js";
 
 export const price = randomPrice();
 export const priceUpdated = randomPriceUpdated();

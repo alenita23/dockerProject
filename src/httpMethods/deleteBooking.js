@@ -1,5 +1,5 @@
-import {endpoint} from "../util/variables";
-import {bookingId} from "../test/booking.test";
+import {endpoint} from "../util/variables.js";
+import {bookingId} from "../test/booking.test.js";
 import axios from "axios";
 
 export function deleteBooking(headers) {

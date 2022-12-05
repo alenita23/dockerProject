@@ -1,4 +1,4 @@
-import {endpoint} from "../util/variables";
+import {endpoint} from "../util/variables.js";
 import {bookingId} from "../test/booking.test";
 import axios from "axios";
 
