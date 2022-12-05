@@ -1,12 +1,12 @@
-import {createAuth} from "../httpMethods/createAuth";
-import {getAllBookings} from "../httpMethods/getAllBookings";
-import {getBookingById} from "../httpMethods/getBookingById";
-import {createBooking} from "../httpMethods/createBooking";
-import * as bodies from "../bodies/bookingBody";
-import {updateBooking} from "../httpMethods/updateBooking";
-import {partialUpdateBooking} from "../httpMethods/partialUpdateBooking";
-import {deleteBooking} from "../httpMethods/deleteBooking";
-import {getDeletedBooking} from "../httpMethods/getDeletedBooking";
+import {createAuth} from "../httpMethods/createAuth.js";
+import {getAllBookings} from "../httpMethods/getAllBookings.js";
+import {getBookingById} from "../httpMethods/getBookingById.js";
+import {createBooking} from "../httpMethods/createBooking.js";
+import * as bodies from "../bodies/bookingBody.js";
+import {updateBooking} from "../httpMethods/updateBooking.js";
+import {partialUpdateBooking} from "../httpMethods/partialUpdateBooking.js";
+import {deleteBooking} from "../httpMethods/deleteBooking.js";
+import {getDeletedBooking} from "../httpMethods/getDeletedBooking.js";
 import * as variables from "../util/variables";
 import * as requestData from "../bodies/preRequest";
 
