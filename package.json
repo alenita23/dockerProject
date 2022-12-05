@@ -2,7 +2,8 @@
   "name": "bootcamp_axios_task",
   "version": "1.0.0",
   "description": "create the jest tests",
-  "main": "index.js",
+  "main": "booking.test.js",
+  "type": "module",
   "author": "akudrautsau",
   "license": "MIT",
   "devDependencies": {
