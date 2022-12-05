@@ -7,19 +7,25 @@ export function randomPriceUpdated() {
 };
 
 export function createCheckinDate() {
-   return new Date().toLocaleDateString('en-CA');
+   // return new Date().toLocaleDateString('en-CA');
+   const dateobj = new Date();
+   function pad(n) {return n < 10 ? "0"+n : n;}
+   const result = dateobj.getFullYear()+"-"+pad(dateobj.getMonth()+1)+"-"+pad(dateobj.getDate());
+   return result;
 };
 
 export function createCheckoutDate() {
    let checkin = new Date();
    checkin.setDate(checkin.getDate() + 3);
-   let checkout = checkin.toLocaleDateString('en-CA');
+   function pad(n) {return n < 10 ? "0"+n : n;}
+   let checkout = checkin.getFullYear()+"-"+pad(checkin.getMonth()+1)+"-"+pad(checkin.getDate());
    return checkout;
 };
 
 export function createCheckoutDateUpdated() {
    let checkin = new Date();
    checkin.setDate(checkin.getDate() + 7);
-   let checkout = checkin.toLocaleDateString('en-CA');
+   function pad(n) {return n < 10 ? "0"+n : n;}
+   let checkout = checkin.getFullYear()+"-"+pad(checkin.getMonth()+1)+"-"+pad(checkin.getDate());
    return checkout;
 };
