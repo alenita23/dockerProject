@@ -75,7 +75,7 @@ describe("create a booking", () => {
    });
 
    test("checkin date is equal to the expected value", async () => {
-      await expect(bookingResponse.data.booking.bookingdates.checkin).toEqual("2022-12-05");
+      await expect(bookingResponse.data.booking.bookingdates.checkin).toEqual(requestData.checkin);
    });
 
    test("checkout date is equal to the expected value", async () => {

@@ -7,19 +7,19 @@ export function randomPriceUpdated() {
 };
 
 export function createCheckinDate() {
-   return new Date().toLocaleDateString('en-ca');
+   return new Date().toLocaleDateString('en-CA');
 };
 
 export function createCheckoutDate() {
    let checkin = new Date();
    checkin.setDate(checkin.getDate() + 3);
-   let checkout = checkin.toLocaleDateString('en-ca');
+   let checkout = checkin.toLocaleDateString('en-CA');
    return checkout;
 };
 
 export function createCheckoutDateUpdated() {
    let checkin = new Date();
    checkin.setDate(checkin.getDate() + 7);
-   let checkout = checkin.toLocaleDateString('en-ca');
+   let checkout = checkin.toLocaleDateString('en-CA');
    return checkout;
 };
